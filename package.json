@@ -1,0 +1,25 @@
+{
+  "name": "nexusExample",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "author": "sejin",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@nexus/schema": "^0.16.0",
+    "apollo-server-micro": "^2.18.2",
+    "next": "^9.5.5",
+    "nexus-plugin-prisma": "^0.22.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.55",
+    "typescript": "^4.0.5"
+  }
+}
